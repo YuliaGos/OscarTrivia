@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="quiz">Oscar Trivia</string>
+    <string name="question1">1.In which year Oscar started their nominee Academy Awards?</string>
+    <string name="year1">1920</string>
+    <string name="year2">1924</string>
+    <string name="year3">1927</string>
+    <string name="year4">1929</string>
+
+    <string name="question2">2.How much does Oscar weight?</string>
+    <string name="weight1">10lbs</string>
+    <string name="weight2">8lbs</string>
+    <string name="weight3">8.5lbs</string>
+    <string name="weight4">5lbs</string>
+
+    <string name="question3">3.In which categories "The Shape of Water" was winner?</string>
+    <string name="categorie1">best actor</string>
+    <string name="categorie2">best picture</string>
+    <string name="categorie3">directing</string>
+    <string name="categorie4">visual effect</string>
+    <string name="categorie5">sound mixing</string>
+    <string name="categorie6">music</string>
+
+    <string name="question4">4.Who hast hosted the Academy Awards in 2018?</string>
+
+    <string name="question5">5.Who is the oldest Oscar winner ever?</string>
+    <string name="winner1">John Huston</string>
+    <string name="winner2">James Ivory</string>
+    <string name="winner3">Christopher Plummer</string>
+    <string name="winner4">Charles Crichton</string>
+
+    <string name="question6">6.Who got most nominations in four categories?</string>
+    <string name="option1">Katharine Hepburn</string>
+    <string name="option2">Meryl Streep</string>
+    <string name="option3">Jack Nicholson</string>
+    <string name="option4">Bette Davis</string>
+
+    <string name="question7">7.Is Tom Hanks received his first Oscar Nomination for the comedy "Big"?</string>
+    <string name="answer1">True</string>
+    <string name="answer2">False</string>
+</resources>
