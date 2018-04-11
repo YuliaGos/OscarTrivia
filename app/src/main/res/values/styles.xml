@@ -11,7 +11,7 @@
         <item name="android:textSize">30sp</item>
         <item name="android:textColor">#fbd26f</item>
         <item name="android:fontFamily">sans-serif-light</item>
-        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginTop</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
@@ -19,7 +19,7 @@
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:textStyle">italic</item>
-        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
     </style>
     <style name="text_user" parent="TextAppearance.AppCompat">
         <item name="android:textColor">#ffffff</item>
@@ -27,19 +27,19 @@
         <item name="android:textColorHint">#ffffff</item>
         <item name="android:background">#4e0c0d</item>
         <item name="android:textStyle">italic</item>
-        <item name="android:layout_marginTop">5dp</item>
-        <item name="android:layout_marginLeft">10dp</item>
-        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/layout_marginRight</item>
         <item name="android:padding">10dp</item>
     </style>
     <style name="Question" parent="TextAppearance.AppCompat">
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">#ffe095</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
-        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginTop</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginTop</item>
+        <item name="android:layout_marginRight">@dimen/layout_marginRight</item>
     </style>
 
     <style name="Radio_button" parent="TextAppearance.AppCompat">
@@ -47,7 +47,7 @@
         <item name="android:textColor">#ffe095</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
         <item name="android:paddingRight">55dp</item>
         <item name="android:buttonTint">#ffe095</item>
     </style>
@@ -68,9 +68,19 @@
         <item name="android:textColorHint">#ffffff</item>
         <item name="android:background">#4e0c0d</item>
         <item name="android:textStyle">italic</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/layout_marginRight</item>
         <item name="android:padding">10dp</item>
+    </style>
+    <style name="Spinner" parent="TextAppearance.AppCompat">
+        <item name="android:layout_marginTop">@dimen/layout_marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/layout_marginRight</item>
+        <item name="android:background">#ffe095</item>
+        <item name="android:popupBackground">#ffe095</item>
+        <item name="backgroundTint">#ffe095</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="submitButton" parent="TextAppearance.AppCompat">
