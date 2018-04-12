@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     public void resetQuiz (View view) {
-        int Score=0;
+        Score=0;
         RadioGroup radioGroup1 = (RadioGroup) findViewById(R.id.radioGroupYear);
         radioGroup1.clearCheck();
         RadioGroup radioGroup2 = (RadioGroup) findViewById(R.id.radioGroupWeight);
